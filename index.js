@@ -1,4 +1,4 @@
-console.log("index working");
+//import {do_stuff} from "./test.wasm";
 WebAssembly.instantiateStreaming(fetch("test.wasm"), {
 	console,
 }).then(
